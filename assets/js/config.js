@@ -12,6 +12,14 @@ window.PETSTAY_CONFIG = {
   ROOMS_AVAILABILITY_API_URL: "https://vg291vswdd.execute-api.us-east-2.amazonaws.com/rooms/availability",
   NEW_BOOKING_API_URL: "https://vg291vswdd.execute-api.us-east-2.amazonaws.com/newbooking",
   CHECKIN_API_URL: "https://vg291vswdd.execute-api.us-east-2.amazonaws.com/checkin"
+  BOOKING_STATUS_API_URL:"https://vg291vswdd.execute-api.us-east-2.amazonaws.com/bookingStatus"
+  CONFIRM_BOOKIN_URL:"https://vg291vswdd.execute-api.us-east-2.amazonaws.com/confirm"
+  CANCEL_BOOKING_URL:"https://vg291vswdd.execute-api.us-east-2.amazonaws.com/cancel"
+  CHECKIN_BOOKING_URL:"https://vg291vswdd.execute-api.us-east-2.amazonaws.com/checkin"
+  CHECKOUT_BOOKING_URL:"https://vg291vswdd.execute-api.us-east-2.amazonaws.com/checkout"
+  RESTORE_BOOKING_URL:"https://vg291vswdd.execute-api.us-east-2.amazonaws.com/restore"
+  PET_PHOTO_UPLOAD_URL:"https://vg291vswdd.execute-api.us-east-2.amazonaws.com/upload_url"
+  PET_PHOTO_PUBLIC_URL_BASE:"https://vg291vswdd.execute-api.us-east-2.amazonaws.com"
 };
 
 // Safety check: crash the page if placeholders were not replaced
